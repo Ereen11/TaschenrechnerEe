@@ -208,9 +208,9 @@
             // btnkomma
             // 
             this.btnkomma.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnkomma.Location = new System.Drawing.Point(262, 318);
+            this.btnkomma.Location = new System.Drawing.Point(129, 187);
             this.btnkomma.Name = "btnkomma";
-            this.btnkomma.Size = new System.Drawing.Size(75, 27);
+            this.btnkomma.Size = new System.Drawing.Size(208, 158);
             this.btnkomma.TabIndex = 15;
             this.btnkomma.Text = ",";
             this.btnkomma.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
