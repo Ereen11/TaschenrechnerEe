@@ -46,6 +46,7 @@
             this.btnkomma = new System.Windows.Forms.Button();
             this.btnC = new System.Windows.Forms.Button();
             this.btnWurzel = new System.Windows.Forms.Button();
+            this.PYG = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // txtbZahl1
@@ -238,12 +239,23 @@
             this.btnWurzel.UseVisualStyleBackColor = true;
             this.btnWurzel.Click += new System.EventHandler(this.btnWurzel_Click);
             // 
+            // PYG
+            // 
+            this.PYG.Location = new System.Drawing.Point(262, 351);
+            this.PYG.Name = "PYG";
+            this.PYG.Size = new System.Drawing.Size(75, 23);
+            this.PYG.TabIndex = 18;
+            this.PYG.Text = "Pythagoras";
+            this.PYG.UseVisualStyleBackColor = true;
+            this.PYG.Click += new System.EventHandler(this.PYG_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.LightSeaGreen;
             this.ClientSize = new System.Drawing.Size(392, 446);
+            this.Controls.Add(this.PYG);
             this.Controls.Add(this.btnWurzel);
             this.Controls.Add(this.btnC);
             this.Controls.Add(this.btnkomma);
@@ -293,6 +305,7 @@
         private System.Windows.Forms.Button btnkomma;
         private System.Windows.Forms.Button btnC;
         private System.Windows.Forms.Button btnWurzel;
+        private System.Windows.Forms.Button PYG;
     }
 }
 
