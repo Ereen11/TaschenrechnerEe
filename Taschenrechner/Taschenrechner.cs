@@ -208,6 +208,16 @@ namespace Taschenrechner
             txtbergebnis.Text = "";
         }
 
-        
+        private void btnWurzel_Click(object sender, EventArgs e)
+        {
+            Form2 frm2 = new Form2();
+            frm2.ShowDialog();
+        }
+
+        private void PYG_Click(object sender, EventArgs e)
+        {
+            Pythagoras frm3 = new Pythagoras();
+            frm3.ShowDialog();
+        }
     }
 }
