@@ -24,18 +24,16 @@ namespace Taschenrechner
 
         private void btnA_Click(object sender, EventArgs e)
         {
-            b = Convert.ToDouble(txtb.Text);
-            c = Convert.ToDouble(txtc.Text);
-            if (txtb.Text == "")
+           
+            if (txtb.Text == "" || txtc.Text == "")
             {
 
             }
-            if (txtc.Text == "")
-            {
-
-            }
+            
             else
             {
+                b = Convert.ToDouble(txtb.Text);
+                c = Convert.ToDouble(txtc.Text);
                 a = Math.Sqrt((c * c) - (b * b));
                 txtba.Text = a.ToString();
             }
@@ -43,18 +41,17 @@ namespace Taschenrechner
 
         private void btnB_Click(object sender, EventArgs e)
         {
-            a = Convert.ToDouble(txtba.Text);
-            c = Convert.ToDouble(txtc.Text);
-            if (txtb.Text == "")
+            
+            if (txtb.Text == "" || txtc.Text == "")
             {
 
-            }
-            if (txtc.Text == "")
-            {
+
 
             }
             else
             {
+                a = Convert.ToDouble(txtba.Text);
+                c = Convert.ToDouble(txtc.Text);
                 b = Math.Sqrt((c * c) - (a * a));
                 txtb.Text = b.ToString();
             }
@@ -62,27 +59,24 @@ namespace Taschenrechner
 
         private void btnC_Click(object sender, EventArgs e)
         {
-            b = Convert.ToDouble(txtb.Text);
-            a = Convert.ToDouble(txtba.Text);
-            if (txtb.Text == "")
+            
+            if (txtb.Text == "" || txtba.Text == "")
             {
 
             }
-            if (txtba.Text == "")
-            {
 
-            }
             else
             {
+                b = Convert.ToDouble(txtb.Text);
+                a = Convert.ToDouble(txtba.Text);
                 c = Math.Sqrt((a * a) + (b * b));
                 txtc.Text = c.ToString();
             }
         }
-
-        private void Form3_Click(object sender, EventArgs e)
+        private void Form3_Clear_Click(object sender, EventArgs e)
         {
             txtba.Text = "";
-            txtb.Text = "";
+            txtb.Text = ""; 
             txtc.Text = "";
         }
     }

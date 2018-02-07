@@ -143,6 +143,7 @@
             this.Form3_Clear.TabIndex = 10;
             this.Form3_Clear.Text = "Clear";
             this.Form3_Clear.UseVisualStyleBackColor = true;
+            this.Form3_Clear.Click += new System.EventHandler(this.Form3_Clear_Click);
             // 
             // Pythagoras
             // 
@@ -163,7 +164,6 @@
             this.Controls.Add(this.PYG);
             this.Name = "Pythagoras";
             this.Text = "Pythagoras";
-            this.Click += new System.EventHandler(this.Form3_Click);
             this.ResumeLayout(false);
             this.PerformLayout();
 
