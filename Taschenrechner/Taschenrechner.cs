@@ -208,6 +208,10 @@ namespace Taschenrechner
             txtbergebnis.Text = "";
         }
 
-        
+        private void btnWurzel_Click(object sender, EventArgs e)
+        {
+            Form2 frm2 = new Form2();
+            frm2.ShowDialog();
+        }
     }
 }
