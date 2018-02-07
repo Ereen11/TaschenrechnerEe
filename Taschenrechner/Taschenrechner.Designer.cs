@@ -45,6 +45,7 @@
             this.btn0 = new System.Windows.Forms.Button();
             this.btnkomma = new System.Windows.Forms.Button();
             this.btnC = new System.Windows.Forms.Button();
+            this.btnWurzel = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // txtbZahl1
@@ -227,12 +228,23 @@
             this.btnC.UseVisualStyleBackColor = true;
             this.btnC.Click += new System.EventHandler(this.btnC_Click_1);
             // 
+            // btnWurzel
+            // 
+            this.btnWurzel.Location = new System.Drawing.Point(149, 351);
+            this.btnWurzel.Name = "btnWurzel";
+            this.btnWurzel.Size = new System.Drawing.Size(75, 23);
+            this.btnWurzel.TabIndex = 17;
+            this.btnWurzel.Text = "✔";
+            this.btnWurzel.UseVisualStyleBackColor = true;
+            this.btnWurzel.Click += new System.EventHandler(this.btnWurzel_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.LightSeaGreen;
             this.ClientSize = new System.Drawing.Size(392, 446);
+            this.Controls.Add(this.btnWurzel);
             this.Controls.Add(this.btnC);
             this.Controls.Add(this.btnkomma);
             this.Controls.Add(this.btn0);
@@ -280,6 +292,7 @@
         private System.Windows.Forms.Button btn0;
         private System.Windows.Forms.Button btnkomma;
         private System.Windows.Forms.Button btnC;
+        private System.Windows.Forms.Button btnWurzel;
     }
 }
 
