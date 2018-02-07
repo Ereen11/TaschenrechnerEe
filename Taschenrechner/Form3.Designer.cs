@@ -1,6 +1,6 @@
 ﻿namespace Taschenrechner
 {
-    partial class Form3
+    partial class Pythagoras
     {
         /// <summary>
         /// Required designer variable.
@@ -38,7 +38,7 @@
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
-            this.btnclear = new System.Windows.Forms.Button();
+            this.Form3_Clear = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // PYG
@@ -49,7 +49,7 @@
             this.PYG.Name = "PYG";
             this.PYG.Size = new System.Drawing.Size(235, 56);
             this.PYG.TabIndex = 0;
-            this.PYG.Text = "Pytharogas";
+            this.PYG.Text = "Pythagoras";
             // 
             // txtb
             // 
@@ -135,22 +135,22 @@
             this.label3.TabIndex = 9;
             this.label3.Text = "C";
             // 
-            // btnclear
+            // Form3_Clear
             // 
-            this.btnclear.Location = new System.Drawing.Point(24, 217);
-            this.btnclear.Name = "btnclear";
-            this.btnclear.Size = new System.Drawing.Size(75, 23);
-            this.btnclear.TabIndex = 10;
-            this.btnclear.Text = "Clear";
-            this.btnclear.UseVisualStyleBackColor = true;
+            this.Form3_Clear.Location = new System.Drawing.Point(24, 217);
+            this.Form3_Clear.Name = "Form3_Clear";
+            this.Form3_Clear.Size = new System.Drawing.Size(75, 23);
+            this.Form3_Clear.TabIndex = 10;
+            this.Form3_Clear.Text = "Clear";
+            this.Form3_Clear.UseVisualStyleBackColor = true;
             // 
-            // Form3
+            // Pythagoras
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.PaleGoldenrod;
             this.ClientSize = new System.Drawing.Size(343, 403);
-            this.Controls.Add(this.btnclear);
+            this.Controls.Add(this.Form3_Clear);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
@@ -161,8 +161,8 @@
             this.Controls.Add(this.txtc);
             this.Controls.Add(this.txtb);
             this.Controls.Add(this.PYG);
-            this.Name = "Form3";
-            this.Text = "Form3";
+            this.Name = "Pythagoras";
+            this.Text = "Pythagoras";
             this.Click += new System.EventHandler(this.Form3_Click);
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -181,6 +181,6 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.Button btnclear;
+        private System.Windows.Forms.Button Form3_Clear;
     }
 }

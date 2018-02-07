@@ -216,7 +216,7 @@ namespace Taschenrechner
 
         private void PYG_Click(object sender, EventArgs e)
         {
-            Form3 frm3 = new Form3();
+            Pythagoras frm3 = new Pythagoras();
             frm3.ShowDialog();
         }
     }

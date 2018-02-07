@@ -10,14 +10,14 @@ using System.Windows.Forms;
 
 namespace Taschenrechner
 {
-    public partial class Form3 : Form
+    public partial class Pythagoras : Form
     {
         double a;
         double b;
         double c;
 
 
-        public Form3()
+        public Pythagoras()
         {
             InitializeComponent();
         }
@@ -74,7 +74,7 @@ namespace Taschenrechner
             }
             else
             {
-                c = Math.Sqrt((a * a) - (b * b));
+                c = Math.Sqrt((a * a) + (b * b));
                 txtc.Text = c.ToString();
             }
         }
